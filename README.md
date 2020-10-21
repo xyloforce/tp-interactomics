@@ -77,7 +77,7 @@ ans = httpReq.text
 
 ```
 
-* Extraire les lignes MITAB impliquant des protéines humaines de EBV 
+* Extraire les lignes MITAB impliquant des protéines humaines et de protéines de EBV 
 
 ```
 
