@@ -182,7 +182,7 @@ En suivant, la méthode précédente dessiner le réseau dans lequel:
 
 Vous pouvez jouer sur la taille de la figure et la constante de ressort *k* du rendu [spring_layout](https://networkx.org/documentation/stable/reference/generated/networkx.drawing.layout.spring_layout.html) pour augmenter la lisibilité du graphique
 
-![Graphique](ebv_human_network_gene.png)
+![Graphique](index2.png)
 
 ###### Optionel
 
