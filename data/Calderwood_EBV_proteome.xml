@@ -1,4 +1,5 @@
-<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd"><entry dataset="TrEMBL" created="2006-06-13" modified="2020-10-07" version="38">
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-06-13" modified="2020-10-07" version="38">
 <accession>Q1HVD6</accession>
 <name>Q1HVD6_EBVA8</name>
 <protein>
