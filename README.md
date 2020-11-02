@@ -36,12 +36,12 @@ Par exemple, les 100 premières interactions protéine-protéine humaines dispon
 
 Numero de champ | Signification Biologique|
  --- | --- 
-1 | 
-2 |
-3 |
-4 |
-5 |
-6 |
+1 | Unique identifier for interactor A
+2 | Unique identifier for interactor B
+3 | Alternative identifier for interactor A
+4 | Alternative identifier for interactor B
+5 | Aliases for A
+6 | Aliases for B
 
 ##### Utiliser le PMID de la publication pour récuperer les lignes MITAB des interactions rapportées dans l'étude.
 Une librairie pratique pour manipuler des requêtes HTTP est [requests](https://requests.readthedocs.io/en/master/), eg:
@@ -60,7 +60,9 @@ ans = httpReq.text
 ##### Quelles techniques experimentales mesurent les interactions rapportées dans cette publication?
 
 ```
-
+{'psi-mi:"MI:0018"(two hybrid)',
+ 'psi-mi:"MI:0096"(pull down)',
+ 'psi-mi:"MI:0397"(two hybrid array)'}
 ```
 
 #### Extraction des deux sous-jeux d'interactions suivants:
@@ -101,7 +103,7 @@ A l'aide des données MITAB et de la librarie [networkx](https://networkx.github
 
 - les arêtes relient deux protéines en interaction
 
-![Graphique](ebv_ebv_network_uniprot.png)
+![Graphique](index.png)
 
 ##### Décrivez brièvement ce réseau
 
